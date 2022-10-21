@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(70deg,rgb(246, 169, 246),white);
+}
+header{
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+    font-size: 23px;
+    padding: 20px;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-transform: capitalize;
+}
+.container{
+    background-color: pink;
+    border: 2px solid #333;
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 5px rgb(210, 22, 22);
+    background-image: linear-gradient(180deg,pink,white);
+}   
+h1{
+    float: left;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.barra{
+    float: right;
+    text-transform: capitalize;
+}
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    color: white;
+    text-decoration: none;
+}
+.barra a:hover{
+    color: #333;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+form{ 
+    margin-top: 20px;  
+    height: 350px;
+    text-align: left;
+    font-size: 20px;
+    
+}
